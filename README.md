@@ -1,2 +1,2 @@
 # Lambda-cookie
-Functional approach to cookies w/ Ramda
+Functional approach to cookies w/ Ramda + es6
