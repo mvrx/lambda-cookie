@@ -1,0 +1,30 @@
+{
+  "name": "lambda-cookie",
+  "version": "0.10.0",
+  "description": "Functional cookie with ramda",
+  "main": "index.js",
+  "dependencies": {
+    "ramda": "0.17.1"
+  },
+  "devDependencies": {
+    "tape": "4.2.0"
+  },
+  "scripts": {
+    "test": "tape index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mvrx/lambda-cookie.git"
+  },
+  "keywords": [
+    "cookie",
+    "browser",
+    "functional"
+  ],
+  "author": "David Chase",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mvrx/lambda-cookie/issues"
+  },
+  "homepage": "https://github.com/mvrx/lambda-cookie#readme"
+}
