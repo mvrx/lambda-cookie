@@ -11,7 +11,6 @@ let maxDate = 'Fri, 31 Dec 9999 23:59:59 UTC';
 let prependExpiration = R.concat('expires=');
 
 // get :: String => String => String
-
 cookieBakery.get = R.useWith(R.prop, R.identity, R.compose(R.fromPairs, R.map(R.split('=')), R.split(/; */)));
 
 // set :: String => String => {k:v} => String
